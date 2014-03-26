@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0" />
+	<title>Lilly</title>
+    
+    <link rel="stylesheet" href="lib/css/css-master.css" type="text/css"/>
+    <link rel="stylesheet" href="lib/css/css-login.css" type="text/css"/>
+    <script src="phonegap.js" type="application/javascript"></script>
+    <script src="lib/js/jquery-1.9.1.min.js" type="application/javascript"></script>
+    <script src="lib/js/js-navegation.js" type="application/javascript"></script>
+    <script src="lib/js/js-login.js" type="application/javascript"></script>
+	 
+     <script >
+	 	function onDeviceReady() {
+			alert('Device: '+window.device.version);
+			if (parseFloat(window.device.version) >= 7.0) {
+				alert('oi');
+				  document.body.style.marginTop = "20px";
+			}
+		}
+  
+		document.addEventListener('deviceready', onDeviceReady, false);
+		</script>
+</head>
+
+<body>
+<div class="page-login" id="page-login" align="center">
+
+	<div class="div-form">
+    	<img src="images/img_logo_lilly.jpg" width="80%"/>
+        
+        <div class="div-form-fields">
+        	<form>
+           	<input placeholder="Login" id="userLogin" width="80%"> 
+            	<input placeholder="Senha" id="userSenha" width="80%">
+               <img id="btLogin" src="images/img_bt.jpg" width="80%"/>
+           </form>
+        </div>
+        
+    </div>
+</div>
+
+<div class="page-home  innactive" id="page-home" align="center">
+	<div class="base-statusbar" id="statusbar-title" align="center"> Seja bem vindo</div><br>
+<br>
+
+    <img src="images/img_logo_lilly_interno.png" width="300"/>
+    <div id="content" align="center">
+        <div class="box"><img src="images/img_bt0.png" width="90%"></div>
+        <div class="box"><img src="images/img_bt1.png" width="90%"></div>
+        <div class="box"><img src="images/img_bt2.png" width="90%"></div><br>
+        <div class="box"><img src="images/img_bt3.png" width="90%"></div>
+        <div class="box"><img src="images/img_bt4.png" width="90%"></div>
+        <div class="box"><img src="images/img_bt5.png" width="90%"></div>
+    </div>
+</div>
+<!--
+
+-->
+</body>
+</html>
