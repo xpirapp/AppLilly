@@ -12,8 +12,10 @@
 			background-repeat:no-repeat;
 			background-size: 80% cover;
 			background-position:top;
+			
+		
 	}
-
+	
 	#content {
 		display: block;
 		margin: 0 auto;
