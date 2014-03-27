@@ -10,12 +10,11 @@
     <link rel="stylesheet" href="lib/css/css-login.css" type="text/css"/>
     <script src="phonegap.js" type="application/javascript"></script>
     <script src="lib/js/jquery-1.9.1.min.js" type="application/javascript"></script>
-    <script src="lib/js/js-navegation.js" type="application/javascript"></script>
+    <script src="lib/js/js-maincontroll.js" type="application/javascript"></script>
+	<script src="lib/js/js-navegation.js" type="application/javascript"></script>
     <script src="lib/js/js-login.js" type="application/javascript"></script>
-	 
-     <script >
-	 
-	 </script>
+    <script src="lib/js/js-home.js" type="application/javascript"></script>
+	
 </head>
 
 <body>
@@ -35,22 +34,61 @@
     </div>
 </div>
 
+
+<!-- SUA VIAGEM -->
 <div class="page-home  innactive" id="page-home" align="center">
 	<div class="base-statusbar" id="statusbar-title" align="center"> Seja bem vindo</div><br>
 <br>
 
     <img src="images/img_logo_lilly_interno.png" width="300"/>
     <div id="content" align="center">
-        <div class="box"><img src="images/img_bt0.png" width="90%"></div>
-        <div class="box"><img src="images/img_bt1.png" width="90%"></div>
-        <div class="box"><img src="images/img_bt2.png" width="90%"></div><br>
-        <div class="box"><img src="images/img_bt3.png" width="90%"></div>
-        <div class="box"><img src="images/img_bt4.png" width="90%"></div>
-        <div class="box"><img src="images/img_bt5.png" width="90%"></div>
+        <div class="box" id="suaviagem"><img src="images/img_bt0.png" width="90%"></div>
+        <div class="box" id="agenda"><img src="images/img_bt1.png" width="90%"></div>
+        <div class="box" id="informacoes"><img src="images/img_bt2.png" width="90%"></div><br>
+        <div class="box" id="oquefazer"><img src="images/img_bt3.png" width="90%"></div>
+        <div class="box" id="emergencia"><img src="images/img_bt4.png" width="90%"></div>
+        <div class="box" id="contato"><img src="images/img_bt5.png" width="90%"></div>
     </div>
 </div>
-<!--
 
--->
+<!-- Sua Viagem -->
+<div class="page-suaviagem  innactive" id="page-suaviagem" align="center">
+	<div class="base-statusbar" id="statusbar-title" align="center"> <h3 data-rel="back" >Voltar </h3> Sua Viagem </div>
+    <br><br>
+</div>
+
+<!-- AGenda -->
+<div class="page-agenda  innactive" id="page-agenda" align="center">
+	<div class="base-statusbar" id="statusbar-title" align="center"> <h3 data-rel="back" >Voltar </h3> Agenda </div>
+    <br><br>
+</div>
+
+
+<!-- INFORMAÇÔES -->
+<div class="page-informacoes  innactive" id="page-informacoes" align="center">
+	<div class="base-statusbar" id="statusbar-title" align="center"> <h3 data-rel="back" >Voltar </h3> Informações </div>
+    <br><br>
+</div>
+
+
+
+<!-- O que fazer -->
+<div class="page-oqfazer  innactive" id="page-oqfazer" align="center">
+	<div class="base-statusbar" id="statusbar-title" align="center"> <h3 data-rel="back" >Voltar </h3> O que fazer </div>
+    <br><br>
+</div>
+
+<!-- Emergência -->
+<div class="page-emergencia  innactive" id="page-emergencia" align="center">
+	<div class="base-statusbar" id="statusbar-title" align="center"> <h3 data-rel="back" >Voltar </h3> Emergência </div>
+    <br><br>
+</div>
+
+<!-- Contato -->
+<div class="page-contato  innactive" id="page-contato" align="center">
+	<div class="base-statusbar" id="statusbar-title" align="center"> <h3 data-rel="back" >Voltar </h3> Contato </div>
+    <br><br>
+</div>
+
 </body>
 </html>
