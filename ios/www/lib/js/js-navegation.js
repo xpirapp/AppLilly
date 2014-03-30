@@ -2,9 +2,9 @@
 	function handleControllPage(e, f)
 	{
 		
-		$( "#"+e ).fadeOut( "slow", function() {
+		$( "#"+e ).fadeOut( "fast", function() {
 			
-			$( "#"+f ).fadeIn( "slow");
+			$( "#"+f ).fadeIn( "fast");
 			
 	  	});
   

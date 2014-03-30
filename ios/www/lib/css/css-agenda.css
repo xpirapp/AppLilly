@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+
+.base-agenda
+{
+	position:relative;
+	width:95%;
+	background-color:#DCDCDC;
+	border-radius:10px;
+	margin-bottom:5px;
+	padding:10px;
+}
+
+.base-agenda-titulo
+{
+	position:relative;
+	width:96%;
+	height:auto;
+	font-size:11px;
+	font-style:italic;	
+	background-color:#CCC;
+	border-radius:10px 10px 0 0;
+	padding:5px;
+}

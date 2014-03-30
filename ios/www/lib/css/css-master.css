@@ -8,10 +8,13 @@
 		padding: 0;
 		background-color:#cc0000;
 		
-			background-image:url(../../images/img_bg_app.jpg);
-			background-repeat:no-repeat;
-			background-size: 80% cover;
-			background-position:top;
+		background-image:url(../../images/img_bg_app.jpg);
+		background-repeat:no-repeat;
+		background-size: 80% cover;
+		background-position:top;
+		
+		font-family:Verdana;
+		font-size:13px;
 			
 		
 	}
@@ -105,6 +108,20 @@
 		color:#FFF;
 		cursor:pointer;
 	}
+	
+	#base-content
+	{
+		padding:10px;
+	}
+	ul
+	{
+		list-style:none;
+	}
+	
+	li
+	{
+		padding:3px;
+	}
     /* Regras de CSS que serão aplicadas para dispositivos com largura mínimia até 480px */
     /* As regras dentro deste bloco, sobescrevem as regras gerais */
 	@media only screen and (min-width: 320px) { 
@@ -117,7 +134,7 @@
 			display: inline-block;
 			vertical-align: top;
 			margin: 7px 0px;
-			width: 94px;
+			width: 90px;
 			height: 110px;
 		}
 		
@@ -135,7 +152,7 @@
 			display: inline-block;
 			vertical-align: top;
 			margin: 10px 5px;
-			width: 115px;
+			width: 105px;
 			height: 150px;
 		}
 	}
