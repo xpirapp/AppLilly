@@ -1,0 +1,204 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Regras de CSS gerais */
+	
+	body {
+		margin: 0;
+		padding: 0;
+		background-color:#cc0000;
+		
+		background-image:url(../../images/img_bg_app.jpg);
+		background-repeat:no-repeat;
+		background-size: 80% cover;
+		background-position:top;
+		
+		font-family:Verdana;
+		font-size:13px;
+			
+		
+	}
+	
+	#content {
+		display: block;
+		margin: 0 auto;
+		width: 100%;
+		
+		
+	}
+
+	.box {
+		display: block;
+		margin: 15px auto;
+		width: 180px;
+		height: 200px;
+	}
+	
+	.innactive
+	{
+		display:none;
+	}
+	
+	.base-statusbar
+	{
+		background-image:url(../../images/img_barra_top.png);
+		background-repeat:repeat-x;
+		background-position:bottom;
+		height:54px;
+		width:100%;
+		
+		color:#fff;
+		padding:5x;
+		
+		text-align:center;
+		line-height:3em;
+		
+		font-size:17px;
+		font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	}
+	
+	
+	/*
+	** - PAGES
+	*/
+	
+	.page-login
+	{
+		position:absolute;
+		background-color:#cc0000;
+		width:100%;
+		height:100%;
+		z-index:9999;
+	}
+	
+	.back
+	{
+		width:200px;
+		height:35px;
+		background-color:#ccc;
+		color:#000;	
+	}
+	
+	h3[data-rel="back"]
+	{
+		position:absolute;
+		top:-5px;
+		left:8px;
+		width:auto;
+		padding-left:8px;
+		padding-right:8px;
+		height:35px;
+		line-height:2.9em;
+		border-radius:10px;
+		background-color:#FFFFFF;
+		
+		/* Gradient */
+		background-image: -o-linear-gradient(bottom, #FF0015 0%, #870000 100%);
+		background-image: -moz-linear-gradient(bottom, #FF0015 0%, #870000 100%);
+		background-image: -webkit-linear-gradient(bottom, #FF0015 0%, #870000 100%);
+		background-image: -ms-linear-gradient(bottom, #FF0015 0%, #870000 100%);
+		background-image: linear-gradient(to bottom, #FF0015 0%, #870000 100%);
+		
+		/* Shadow */
+		box-shadow: 0px 0px 5px #fff;
+		
+		border:1px solid #ccc;
+		font-size:12px;
+		font-family:Verdana, sans-serif;
+		color:#FFF;
+		cursor:pointer;
+	}
+	
+	#base-content
+	{
+		padding:10px;
+	}
+	ul
+	{
+		list-style:none;
+	}
+	
+	li
+	{
+		padding:3px;
+	}
+	
+    /* Regras de CSS que serão aplicadas para dispositivos com largura mínimia até 480px */
+    /* As regras dentro deste bloco, sobescrevem as regras gerais */
+	@media only screen and (min-width: 320px) { 
+		
+		#content {
+			width: 290px;
+			margin: 0 auto;
+		}
+		.box {
+			display: inline-block;
+			vertical-align: top;
+			margin: 7px 0px;
+			width: 90px;
+			height: 110px;
+		}
+		
+	}
+	
+	@media only screen and (min-width: 480px) { 
+		#content {
+			align-content:center;
+			align-items:center;
+			
+			width: 384px;
+			margin: 0 auto;
+		}
+		.box {
+			display: inline-block;
+			vertical-align: top;
+			margin: 10px 5px;
+			width: 105px;
+			height: 150px;
+		}
+	}
+    /* Regras de CSS que serão aplicadas para dispositivos com largura mínimia até 640px */
+    /* As regras dentro deste bloco, sobescrevem as regras gerais */
+	@media only screen and (min-width: 640px) { 
+		#content {
+			width: 576px;
+			margin: 0 auto;
+		}
+		.box {
+			display: inline-block;
+			vertical-align: top;
+			margin: 10px 4px;
+			width: 140px;
+			height: 160px;
+		}
+	}
+    /* Regras de CSS que serão aplicadas para dispositivos com largura mínimia até 1024px */
+    /* As regras dentro deste bloco, sobescrevem as regras gerais */
+	@media only screen and (min-width: 1024px) { 
+		#content {
+			width: 960px;
+			margin: 0 auto;
+		}
+		.box {
+			display: inline-block;
+			vertical-align: top;
+			margin: 10px 4px;
+			width: 150px;
+			height: 170px;
+		}
+	}
+    /* Regras de CSS que serão aplicadas para dispositivos com largura mínimia até 1280px */
+    /* As regras dentro deste bloco, sobescrevem as regras gerais */
+	@media only screen and (min-width: 1280px) { 
+		#content {
+			margin: 0 auto;
+			width: 1216px;
+		}
+		.box {
+			display: inline-block;
+			vertical-align: top;
+			margin: 10px 4px;
+		}
+	}
+
+	/* É possível usar qualquer largura como parâmetro e qualquer atributo de CSS pode ser alterado dentro dos blocos com largura pré-determinada */

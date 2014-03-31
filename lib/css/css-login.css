@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/* CSS Document */
+
+input
+{
+	border:1px solid #ccc;
+	border-radius:10px;
+	height:30px;
+	width:70%;	
+	padding:7px;
+	margin-bottom:5px;
+	
+	font-size:14px;
+	color:#898989;
+}
+
+.div-form
+{
+	position:absolute;
+	width:320px;
+	height:400px;
+	left:50%;
+	top:50%;
+	margin-left:-160px;
+	margin-top:-200px;
+}
+
+.page-login
+{
+	vertical-align: central;
+}
