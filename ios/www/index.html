@@ -44,7 +44,7 @@
 <div data-role="page" class="page-home"  id="page-home" align="center">
 	<div class="base-statusbar" id="statusbar-title" align="center"> Seja bem vindo</div>
 
-    <img src="images/img_logo_lilly_interno.png" width="200"/>
+    <div class="base-logo-shadow"><img src="images/img_logo_lilly_interno.png" width="200"/></div>
     <div id="content" align="center">
         <div class="box" id="suaviagem"> <a href="#page-suaviagem" data-transition="fade" ><img src="images/img_bt0.png" width="85%"></a></div>
         <div class="box" id="agenda"> <a href="#page-agenda" data-transition="fade" ><img src="images/img_bt1.png" width="85%"></a></div>
@@ -60,7 +60,8 @@
 <!-- Sua Viagem -->
 <div data-role="page" class="page-suaviagem" data-theme="a" id="page-suaviagem" align="center">
 	<div data-role="header">
-		<div class="base-statusbar" id="statusbar-title" align="center"> <h3 data-rel="back" > Voltar </h3> Sua Viagem </div>
+    	<a data-rel="back" data-icon="home">Voltar</a>
+		<div class="base-statusbar" id="statusbar-title" align="center"> Sua Viagem </div>
     </div>
     <br>
      <div id="base-content" align="center">
@@ -84,7 +85,10 @@
 
 <!-- AGenda -->
 <div data-role="page" class="page-agenda"  data-theme="a" id="page-agenda" align="center">
-	<div class="base-statusbar" id="statusbar-title" align="center"> <h3 data-rel="back" >Voltar </h3> Agenda </div>
+	<div data-role="header">
+    	<a data-rel="back" data-icon="home">Voltar</a>
+		<div class="base-statusbar" id="statusbar-title" align="center"> Agenda </div>
+    </div>
     <br>
       
       <div id="base-content" align="left">
@@ -156,7 +160,8 @@
 <!-- INFORMAÇÔES -->
 <div data-role="page" class="page-info" data-theme="a" id="page-info" align="center">
 	<div data-role="header">
-		<div class="base-statusbar" id="statusbar-title" align="center"> <h3 data-rel="back" > Voltar </h3> Informações </div>
+    	<a data-rel="back" data-icon="home">Voltar</a>
+		<div class="base-statusbar" id="statusbar-title" align="center"> Informações </div>
     </div>
     <br>
      <div id="base-content" align="center">
@@ -176,7 +181,8 @@
 <!-- O que fazer -->
 <div data-role="page" class="page-oqfazer"  data-theme="a" id="page-oqfazer" align="center">
 	 <div data-role="header">
-		<div class="base-statusbar" id="statusbar-title" align="center"> <h3 data-rel="back" > Voltar </h3> O que fazer? </div>
+    	<a data-rel="back" data-icon="home">Voltar</a>
+		<div class="base-statusbar" id="statusbar-title" align="center"> O que fazer? </div>
     </div>
     <br>
     
@@ -188,7 +194,8 @@
 <div data-role="page" class="page-emergencia" id="page-emergencia" align="center">
 	
     <div data-role="header">
-		<div class="base-statusbar" id="statusbar-title" align="center"> <h3 data-rel="back" > Voltar </h3>Números de Emergência </div>
+    	<a data-rel="back" data-icon="home">Voltar</a>
+		<div class="base-statusbar" id="statusbar-title" align="center">Números de Emergência </div>
     </div>
     <br>
      <div id="base-content" align="center">
@@ -206,7 +213,8 @@
 <!-- Contato -->
 <div data-role="page" class="page-contato" id="page-contato" align="center">
 	<div data-role="header">
-		<div class="base-statusbar" id="statusbar-title" align="center"> <h3 data-rel="back" > Voltar </h3>Contato Lilly </div>
+    	<a data-rel="back" data-icon="home">Voltar</a>
+		<div class="base-statusbar" id="statusbar-title" align="center"> Contato Lilly </div>
     </div>
     <br>
     
