@@ -71,6 +71,17 @@
 		z-index:9999;
 	}
 	
+	.page-home,  .page-suaviagem,  .page-agenda,  .page-info,  .page-oqfazer, .page-emergencia, .page-contato
+	{
+		background-image:url(../../images/img_bg_app.jpg);
+		background-repeat:no-repeat;
+		background-size: 80% cover;
+		background-position:top;
+		
+	}
+	
+	
+		
 	.back
 	{
 		width:200px;
